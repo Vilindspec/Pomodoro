@@ -153,4 +153,4 @@ window.onload = () => {
 // Save state when leaving the page
 window.onbeforeunload = saveState;
 
-}
+
