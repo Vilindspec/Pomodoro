@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+    
+      <div class="container">
+      
+        <h1>Pomodoro Timer</h1>
+        
+        <label for="username">Enter Your Name:</label>
+        <input type="text" id="username" placeholder="Your Name" />
+      
+        <div class="timer-display" id="timer">25:00</div>
+      
+        <div class="progress-bar">
+          <div class="progress" id="progress"></div>
+        </div>
+      
+        <label for="music-select">Choose a relaxing instrumental:</label> <br>
+        <select id="music-select">
+          <option value="">-Select Music-</option>
+        </select>
+      
+        <button id="play-music">🎵 Play</button>
+        <button id="pause-music">⏸️ Pause</button>
+        <button id="stop-music">⏹️ Stop</button>
+      
+        <audio id="audio-player" loop></audio>
+        <audio id="alarm" src="https://www.soundjay.com/button/beep-07.wav"></audio>
+      
+        <div class="controls">
+          <button id="start">Start</button>
+          <button id="pause">Pause</button>
+          <button id="reset">Reset</button>
+        </div>
+      
+        <p id="mode">Work Mode</p>
+        
+
+          <!-- <div class="todo-container">
+            <h2>📋 To-Do List</h2>
+            <div class="todo-form">
+              <input type="text" id="task-title" placeholder="Task title" required />
+              <input type="date" id="task-date" />
+              <input type="time" id="task-time" />
+              <button id="add-task">Add Task</button>
+            </div>
+          
+            <ul id="task-list"></ul>
+          
+            <div class="task-stats">
+              <p>✅ Completed: <span id="completed-count">0</span></p>
+              <p>🕒 Pending: <span id="pending-count">0</span></p>
+             <audio id="alarm" src="https://www.soundjay.com/button/beep-07.wav"></audio>
+            </div> -->
+          </div>
+          
+            
+     <script src="script.js"></script>    
+</body>
+</html>
