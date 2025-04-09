@@ -15,15 +15,15 @@ const musicSelect = document.getElementById("music-select");
 
 // Music Track List
 const musicTracks = [
-  { name: "A Bird", url: "./music/a-bird.mp3" },
-  { name: "Bird Flight", url: "./music/bird-flight.mp3" },
-  { name: "Cinematic Ascent", url: "./music/cenematic-ascent.mp3" },
-  { name: "Investigation", url: "./music/nature-investigation.mp3" },
-  { name: "Faraway", url: "./music/faraway-bird.mp3" },
-  { name: "Meet The Rain", url: "./music/meet-the-rain.mp3" },
-  { name: "Smooth", url: "./music/smooth.mp3" },
-  { name: "Voice Of Nature", url: "./music/voice of nature.mp3" },
-  { name: "Water Fountain", url: "./music/Water-fountain.mp3" }
+  { name: "A Bird", url: "a-bird.mp3" },
+  { name: "Bird Flight", url: "bird-flight.mp3" },
+  { name: "Cinematic Ascent", url: "cenematic-ascent.mp3" },
+  { name: "Investigation", url: "nature-investigation.mp3" },
+  { name: "Faraway", url: "faraway-bird.mp3" },
+  { name: "Meet The Rain", url: "meet-the-rain.mp3" },
+  { name: "Smooth", url: "smooth.mp3" },
+  { name: "Voice Of Nature", url: "voice of nature.mp3" },
+  { name: "Water Fountain", url: "Water-fountain.mp3" }
 ];
 
 //  Music Dropdown
